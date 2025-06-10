@@ -345,6 +345,20 @@ section::before {
   }
 }
 
+@media only screen and (max-width: 222px) {
+  .contact::before {
+    font-size: 42px;
+  }
+
+  .about::before {
+    font-size: 48px;
+  }
+
+  .work::before {
+    font-size: 48px;
+  }
+}
+
 @keyframes bounceIn { /* membuat animasi awal seperti ada pantulan di header */
     0% {
         filter: opacity(0);

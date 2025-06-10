@@ -310,6 +310,13 @@ section::before {
   }
 }
 
+@media only screen and (max-width: 282px) {
+  .contact::before {
+    content: 'Contact';
+    font-size: 64px;
+  }
+}
+
 @keyframes bounceIn { /* membuat animasi awal seperti ada pantulan di header */
     0% {
         filter: opacity(0);

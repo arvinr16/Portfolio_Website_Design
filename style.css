@@ -317,6 +317,24 @@ section::before {
   }
 }
 
+@media only screen and (max-width: 260px) {
+  .home div div h3 {
+    font-size: 24px;
+  }
+
+  .home div div h1 {
+    font-size: 32px;
+  }
+
+  .home div div p {
+    font-size: 13px;
+  }
+
+  .contact::before {
+    font-size: 54px;
+  }
+}
+
 @keyframes bounceIn { /* membuat animasi awal seperti ada pantulan di header */
     0% {
         filter: opacity(0);

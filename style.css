@@ -300,6 +300,16 @@ section::before {
   }
 }
 
+@media only screen and (max-width: 390px) {
+  .home div div h3 {
+    font-size: 32px;
+  }
+  
+  .home div div h1 {
+    font-size: 48px;
+  }
+}
+
 @keyframes bounceIn { /* membuat animasi awal seperti ada pantulan di header */
     0% {
         filter: opacity(0);

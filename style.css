@@ -335,6 +335,16 @@ section::before {
   }
 }
 
+@media only screen and (max-width: 236px) {
+  .about::before {
+    font-size: 64px;
+  }
+
+  .work::before {
+    font-size: 64px;
+  }
+}
+
 @keyframes bounceIn { /* membuat animasi awal seperti ada pantulan di header */
     0% {
         filter: opacity(0);
